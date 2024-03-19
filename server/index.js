@@ -5,7 +5,7 @@ import dotenv from "dotenv";
 
 import passport from "passport";
 import session from "express-session";
-import connectMongo from "connect-mongo-session";
+import connectMongo from "connect-mongodb-session";
 
 import { ApolloServer } from "@apollo/server";
 import { expressMiddleware } from "@apollo/server/express4";
